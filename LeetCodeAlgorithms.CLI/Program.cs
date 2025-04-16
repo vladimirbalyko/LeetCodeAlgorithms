@@ -1,6 +1,7 @@
 ﻿using LeetCodeAlgorithms.BL.Tasks.TwoSum;
 using LeetCodeAlgorithms.BL.Tasks.LongestSubstring;
 using LeetCodeAlgorithms.BL.Tasks.PascalTriangle;
+using LeetCodeAlgorithms.BL.Tasks;
 
 Console.WriteLine("Leet Code Algorithms run!");
 
@@ -10,6 +11,7 @@ void DisplayMenu()
                       "1 - \"Two Sum\"\n" +
                       "2 - \"Pascal's Triangle\"\n" +
                       "3 - \"Longest Substring Without Repeating Characters\"\n" +
+                      "4 - \"Longest Common Prefix\"\n" +
                       "_______________________________________________\n" +
                       "0 - Exit");
     Console.WriteLine();
@@ -31,6 +33,9 @@ do
             break;
         case 3:
             new LongestSubstringTask().Execute();
+            break;
+        case 4:
+            new LongestCommonPrefixTask().Execute();
             break;
         case 0:
             Console.WriteLine("Exiting...");
