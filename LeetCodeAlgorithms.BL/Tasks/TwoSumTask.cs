@@ -34,7 +34,7 @@
 
     // Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
     // https://leetcode.com/problems/two-sum/description/
-    public class TwoSumTask
+    public class TwoSumTask : IExecutableTask
     {
         // Simple solution
         public static int[] Solution(int[] nums, int target)

@@ -21,7 +21,7 @@ namespace LeetCodeAlgorithms.BL.Tasks
     // strs[i] consists of only lowercase English letters if it is non-empty.
 
     // https://leetcode.com/problems/longest-common-prefix/description/
-    public class LongestCommonPrefixTask
+    public class LongestCommonPrefixTask : IExecutableTask
     {
         public string Solution(string[] strs)
         {

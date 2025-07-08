@@ -16,7 +16,7 @@
 
     //1 <= numRows <= 30
     // https://leetcode.com/problems/pascals-triangle/description/
-    public class PascalTriangleTask
+    public class PascalTriangleTask : IExecutableTask
     {
         public IList<IList<int>> Solution(int numRows)
         {

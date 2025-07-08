@@ -25,7 +25,7 @@
     //s consists of English letters, digits, symbols and spaces.
 
     // https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
-    public class LongestSubstringTask
+    public class LongestSubstringTask : IExecutableTask
     {
         public int Solution(string s)
         {
