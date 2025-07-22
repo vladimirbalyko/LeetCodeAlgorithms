@@ -35,6 +35,11 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/des
 
 Given a string s, find the length of the longest substring without duplicate characters.
 
+9. Palindrome Number (Easy)
+https://leetcode.com/problems/palindrome-number/description/
+
+Given an integer x, return true if x is a palindrome, and false otherwise.
+
 14. Longest Common Prefix (Easy)
 https://leetcode.com/problems/longest-common-prefix/description/
 

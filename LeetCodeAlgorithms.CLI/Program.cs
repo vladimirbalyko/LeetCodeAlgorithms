@@ -14,6 +14,7 @@ void DisplayMenu()
                       "2 - \"Pascal's Triangle\"\n" +
                       "3 - \"Longest Substring Without Repeating Characters\"\n" +
                       "4 - \"Longest Common Prefix\"\n" +
+                      "9. Palindrome Number \n" +
                       "26. Remove Duplicates from Sorted Array \n" +
                       "_______________________________________________\n" +
                       "0 - Exit");
@@ -42,6 +43,9 @@ do
             break;
         case 4:
             task = new LongestCommonPrefixTask();
+            break;
+        case 9:
+            task = new PalindromeNumberTask();
             break;
         case 26:
             task = new RemoveDuplicatesFromSortedArrayTask();
