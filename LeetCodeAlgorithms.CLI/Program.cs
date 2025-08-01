@@ -16,6 +16,7 @@ void DisplayMenu()
                       "4 - \"Longest Common Prefix\"\n" +
                       "9. Palindrome Number \n" +
                       "13. Roman to Integer \n" +
+                      "20. Valid Parentheses \n" +
                       "26. Remove Duplicates from Sorted Array \n" +
                       "_______________________________________________\n" +
                       "0 - Exit");
@@ -50,6 +51,9 @@ do
             break;
         case 13:
             task = new RomanToIntegerTask();
+            break;
+        case 20:
+            task = new ValidParenthesesTask();
             break;
         case 26:
             task = new RemoveDuplicatesFromSortedArrayTask();

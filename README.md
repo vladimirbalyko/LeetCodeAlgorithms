@@ -68,6 +68,17 @@ https://leetcode.com/problems/longest-common-prefix/description/
 Write a function to find the longest common prefix string amongst an array of strings.
 If there is no common prefix, return an empty string "".
 
+20. Valid Parentheses (Easy)
+https://leetcode.com/problems/valid-parentheses/description/
+
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+An input string is valid if:
+
+1. Open brackets must be closed by the same type of brackets.
+2. Open brackets must be closed in the correct order.
+3. Every close bracket has a corresponding open bracket of the same type.
+
 26. Remove Duplicates from Sorted Array (Easy)
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 
