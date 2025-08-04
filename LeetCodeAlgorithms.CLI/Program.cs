@@ -17,6 +17,7 @@ void DisplayMenu()
                       "9. Palindrome Number \n" +
                       "13. Roman to Integer \n" +
                       "20. Valid Parentheses \n" +
+                      "21. Merge Two Sorted Lists \n" +
                       "26. Remove Duplicates from Sorted Array \n" +
                       "_______________________________________________\n" +
                       "0 - Exit");
@@ -54,6 +55,9 @@ do
             break;
         case 20:
             task = new ValidParenthesesTask();
+            break;
+        case 21:
+            task = new MergeTwoSortedListsTask();
             break;
         case 26:
             task = new RemoveDuplicatesFromSortedArrayTask();

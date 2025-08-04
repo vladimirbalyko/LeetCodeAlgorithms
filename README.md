@@ -79,6 +79,13 @@ An input string is valid if:
 2. Open brackets must be closed in the correct order.
 3. Every close bracket has a corresponding open bracket of the same type.
 
+21. Merge Two Sorted Lists (Easy)
+https://leetcode.com/problems/merge-two-sorted-lists/description/
+
+You are given the heads of two sorted linked lists list1 and list2.
+Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
+Return the head of the merged linked list.
+
 26. Remove Duplicates from Sorted Array (Easy)
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 
