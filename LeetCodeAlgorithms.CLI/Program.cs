@@ -19,6 +19,7 @@ void DisplayMenu()
                       "20. Valid Parentheses \n" +
                       "21. Merge Two Sorted Lists \n" +
                       "26. Remove Duplicates from Sorted Array \n" +
+                      "27. Remove Element \n" +
                       "_______________________________________________\n" +
                       "0 - Exit");
     Console.WriteLine();
@@ -61,6 +62,9 @@ do
             break;
         case 26:
             task = new RemoveDuplicatesFromSortedArrayTask();
+            break;
+        case 27:
+            task = new RemoveElementTask();
             break;
         case 0:
             Console.WriteLine("Exiting...");
