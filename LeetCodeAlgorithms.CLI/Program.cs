@@ -20,6 +20,7 @@ void DisplayMenu()
                       "21. Merge Two Sorted Lists \n" +
                       "26. Remove Duplicates from Sorted Array \n" +
                       "27. Remove Element \n" +
+                      "28. Find the Index of the First Occurrence in a String \n" +
                       "_______________________________________________\n" +
                       "0 - Exit");
     Console.WriteLine();
@@ -65,6 +66,9 @@ do
             break;
         case 27:
             task = new RemoveElementTask();
+            break;
+        case 28:
+            task = new FirstOccurrenceIndexTask();
             break;
         case 0:
             Console.WriteLine("Exiting...");
