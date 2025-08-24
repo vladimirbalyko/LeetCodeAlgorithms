@@ -21,6 +21,7 @@ void DisplayMenu()
                       "26. Remove Duplicates from Sorted Array \n" +
                       "27. Remove Element \n" +
                       "28. Find the Index of the First Occurrence in a String \n" +
+                      "35. Search Insert Position \n" +
                       "_______________________________________________\n" +
                       "0 - Exit");
     Console.WriteLine();
@@ -69,6 +70,9 @@ do
             break;
         case 28:
             task = new FirstOccurrenceIndexTask();
+            break;
+        case 35:
+            task = new SearchInsertPositionTask();
             break;
         case 0:
             Console.WriteLine("Exiting...");
