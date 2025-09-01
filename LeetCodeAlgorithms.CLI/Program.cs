@@ -22,6 +22,7 @@ void DisplayMenu()
                       "27. Remove Element \n" +
                       "28. Find the Index of the First Occurrence in a String \n" +
                       "35. Search Insert Position \n" +
+                      "58. Length of Last Word \n" +
                       "_______________________________________________\n" +
                       "0 - Exit");
     Console.WriteLine();
@@ -73,6 +74,9 @@ do
             break;
         case 35:
             task = new SearchInsertPositionTask();
+            break;
+        case 58:
+            task = new LengthOfLastWordTask();
             break;
         case 0:
             Console.WriteLine("Exiting...");
