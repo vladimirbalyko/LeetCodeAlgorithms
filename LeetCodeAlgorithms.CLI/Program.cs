@@ -23,6 +23,7 @@ void DisplayMenu()
                       "28. Find the Index of the First Occurrence in a String \n" +
                       "35. Search Insert Position \n" +
                       "58. Length of Last Word \n" +
+                      "66. Plus One \r\n" +
                       "_______________________________________________\n" +
                       "0 - Exit");
     Console.WriteLine();
@@ -77,6 +78,9 @@ do
             break;
         case 58:
             task = new LengthOfLastWordTask();
+            break;
+        case 66:
+            task = new PlusOneTask();
             break;
         case 0:
             Console.WriteLine("Exiting...");
