@@ -24,6 +24,7 @@ void DisplayMenu()
                       "35. Search Insert Position \n" +
                       "58. Length of Last Word \n" +
                       "66. Plus One \r\n" +
+                      "67. Add Binary\r\n" +
                       "_______________________________________________\n" +
                       "0 - Exit");
     Console.WriteLine();
@@ -81,6 +82,9 @@ do
             break;
         case 66:
             task = new PlusOneTask();
+            break;
+        case 67:
+            task = new AddBinaryTask();
             break;
         case 0:
             Console.WriteLine("Exiting...");
