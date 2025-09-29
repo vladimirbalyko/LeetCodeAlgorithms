@@ -10,10 +10,10 @@ Console.WriteLine("Leet Code Algorithms run!");
 void DisplayMenu()
 {
     Console.WriteLine("\nPlease choose a task:\n" +
-                      "1 - \"Two Sum\"\n" +
-                      "2 - \"Pascal's Triangle\"\n" +
-                      "3 - \"Longest Substring Without Repeating Characters\"\n" +
-                      "4 - \"Longest Common Prefix\"\n" +
+                      "1. Two Sum\"\n" +
+                      "2. Pascal's Triangle\"\n" +
+                      "3. Longest Substring Without Repeating Characters\"\n" +
+                      "4. Longest Common Prefix\"\n" +
                       "9. Palindrome Number \n" +
                       "13. Roman to Integer \n" +
                       "20. Valid Parentheses \n" +
@@ -24,7 +24,8 @@ void DisplayMenu()
                       "35. Search Insert Position \n" +
                       "58. Length of Last Word \n" +
                       "66. Plus One \r\n" +
-                      "67. Add Binary\r\n" +
+                      "67. Add Binary \r\n" +
+                      "69. Sqrt(x) \r\n" +
                       "_______________________________________________\n" +
                       "0 - Exit");
     Console.WriteLine();
@@ -85,6 +86,9 @@ do
             break;
         case 67:
             task = new AddBinaryTask();
+            break;
+        case 69:
+            task = new SqrtXTask();
             break;
         case 0:
             Console.WriteLine("Exiting...");

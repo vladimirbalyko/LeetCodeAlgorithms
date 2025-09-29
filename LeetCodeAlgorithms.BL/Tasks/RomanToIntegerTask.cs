@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace LeetCodeAlgorithms.BL.Tasks
+﻿namespace LeetCodeAlgorithms.BL.Tasks
 {
     // 13. Roman to Integer (Easy)
     public class RomanToIntegerTask : IExecutableTask
