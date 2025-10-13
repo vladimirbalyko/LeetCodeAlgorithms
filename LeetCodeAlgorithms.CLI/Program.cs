@@ -27,6 +27,7 @@ void DisplayMenu()
                       "67. Add Binary \r\n" +
                       "69. Sqrt(x) \r\n" +
                       "70. Climbing Stairs \r\n" +
+                      "83. Remove Duplicates from Sorted List \r\n" +
                       "_______________________________________________\n" +
                       "0 - Exit");
     Console.WriteLine();
@@ -93,6 +94,9 @@ do
             break;
         case 70:
             task = new ClimbingStairsTask();
+            break;
+        case 83:
+            task = new RemoveDuplicatesFromSortedListTask();
             break;
         case 0:
             Console.WriteLine("Exiting...");

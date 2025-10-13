@@ -1,4 +1,5 @@
-﻿using LeetCodeAlgorithms.BL.Tasks;
+﻿using LeetCodeAlgorithms.BL.Models;
+using LeetCodeAlgorithms.BL.Tasks;
 
 namespace LeetCodeAlgorithms.BL.Helpers
 {

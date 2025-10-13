@@ -1,17 +1,9 @@
 ﻿
+using LeetCodeAlgorithms.BL.Helpers;
+using LeetCodeAlgorithms.BL.Models;
+
 namespace LeetCodeAlgorithms.BL.Tasks
 {
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int val = 0, ListNode next = null)
-        {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
     // 21. Merge Two Sorted Lists (Easy)
     public class MergeTwoSortedListsTask : IExecutableTask
     {
@@ -49,44 +41,11 @@ namespace LeetCodeAlgorithms.BL.Tasks
         {
             Console.WriteLine("Running '21. Merge Two Sorted Lists' solutions...");
 
-            var item1 = BuildList(new[] { 1, 2, 4 });
-            var item2 = BuildList(new[] { 1, 3, 4 });
+            var item1 = ListNodeHelper.BuildList(new[] { 1, 2, 4 });
+            var item2 = ListNodeHelper.BuildList(new[] { 1, 3, 4 });
 
             var result = Solution(item1, item2);
-            PrintList(result);
-        }
-
-        public ListNode? BuildList(int[] values)
-        {
-            if (values == null || values.Length == 0)
-            {
-                return null;
-            }
-
-            ListNode head = new ListNode(values[0]);
-            ListNode current = head;
-            for (int i = 1; i < values.Length; i++)
-            {
-                current.next = new ListNode(values[i]);
-                current = current.next;
-            }
-
-            return head;
-        }
-
-        public void PrintList(ListNode head)
-        {
-            var current = head;
-            while (current != null)
-            {
-                Console.Write(current.val);
-                if (current.next != null)
-                {
-                    Console.Write(" -> ");
-                }
-                current = current.next;
-            }
-            Console.WriteLine();
+            PrintDataHelper.PrintListNode(result);
         }
     }
 }
