@@ -38,5 +38,29 @@ namespace LeetCodeAlgorithms.BL.Helpers
             }
             Console.WriteLine();
         }
+
+        public static void PrintTree(TreeNode? node, string indent = "", bool isLast = true)
+        {
+            if (node == null)
+                return;
+
+            // Вывод текущего узла
+            Console.Write(indent);
+            Console.Write(isLast ? "└─ " : "├─ ");
+            Console.WriteLine(node.val);
+
+            // Добавляем отступ для следующего уровня
+            indent += isLast ? "   " : "│  ";
+
+            // Определяем, есть ли потомки
+            bool hasLeft = node.left != null;
+            bool hasRight = node.right != null;
+
+            if (hasLeft)
+                PrintTree(node.left, indent, !hasRight);
+
+            if (hasRight)
+                PrintTree(node.right, indent, true);
+        }
     }
 }

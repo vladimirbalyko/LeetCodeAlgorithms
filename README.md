@@ -361,6 +361,7 @@ The number of nodes in the list is in the range [0, 300].
 The list is guaranteed to be sorted in ascending order.
 
 88. Merge Sorted Array (Easy)
+https://leetcode.com/problems/merge-sorted-array/description/
 
 You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
 Merge nums1 and nums2 into a single array sorted in non-decreasing order.
@@ -394,6 +395,30 @@ Constraints:
  -109 <= nums1[i], nums2[j] <= 109
 
 Follow up: Can you come up with an algorithm that runs in O(m + n) time?
+
+100. Same Tree (Easy)
+https://leetcode.com/problems/same-tree/description/
+
+Given the roots of two binary trees p and q, write a function to check if they are the same or not.
+
+Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.
+
+Example 1:
+Input: p = [1,2,3], q = [1,2,3]
+Output: true
+
+Example 2:
+Input: p = [1,2], q = [1,null,2]
+Output: false
+
+Example 3:
+Input: p = [1,2,1], q = [1,1,2]
+Output: false
+
+
+Constraints:
+The number of nodes in both trees is in the range [0, 100].
+-104 <= Node.val <= 104
 
 118. Pascal's Triangle (Easy)
 https://leetcode.com/problems/pascals-triangle/description/

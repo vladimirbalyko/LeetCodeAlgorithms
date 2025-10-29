@@ -2,7 +2,6 @@
 using LeetCodeAlgorithms.BL.Tasks.LongestSubstring;
 using LeetCodeAlgorithms.BL.Tasks.PascalTriangle;
 using LeetCodeAlgorithms.BL.Tasks;
-using System.Globalization;
 
 // https://leetcode.com/problemset/
 
@@ -30,6 +29,7 @@ void DisplayMenu()
                       "70. Climbing Stairs \r\n" +
                       "83. Remove Duplicates from Sorted List \r\n" +
                       "88. Merge Sorted Array \r\n" +
+                      "100. Same Tree\r\n" +
                       "_______________________________________________\n" +
                       "0 - Exit");
     Console.WriteLine();
@@ -102,6 +102,9 @@ do
             break;
         case 88:
             task = new MergeSortedArrayTask();
+            break;
+        case 100:
+            task = new SameTreeTask();
             break;
         case 0:
             Console.WriteLine("Exiting...");
