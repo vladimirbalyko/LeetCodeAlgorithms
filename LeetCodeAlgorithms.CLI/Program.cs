@@ -29,6 +29,7 @@ void DisplayMenu()
                       "70. Climbing Stairs \r\n" +
                       "83. Remove Duplicates from Sorted List \r\n" +
                       "88. Merge Sorted Array \r\n" +
+                      "94. Binary Tree Inorder Traversal \r\n" +
                       "100. Same Tree\r\n" +
                       "_______________________________________________\n" +
                       "0 - Exit");
@@ -102,6 +103,9 @@ do
             break;
         case 88:
             task = new MergeSortedArrayTask();
+            break;
+        case 94:
+            task = new BinaryTreeInorderTraversalTask();
             break;
         case 100:
             task = new SameTreeTask();

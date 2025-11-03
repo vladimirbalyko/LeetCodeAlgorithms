@@ -1,6 +1,4 @@
 ﻿
-using System.Linq;
-
 namespace LeetCodeAlgorithms.BL.Tasks
 {
     // 26. Remove Duplicates from Sorted Array (Easy)
