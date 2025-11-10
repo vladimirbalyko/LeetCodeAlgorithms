@@ -11,7 +11,7 @@ void DisplayMenu()
 {
     Console.WriteLine("\nPlease choose a task: \n" +
                       "1. Two Sum \n" +
-                      "2. Pascal's Triangle \n" +
+                      "2. Add Two Numbers  \n" +
                       "3. Longest Substring Without Repeating Characters \n" +
                       "4. Longest Common Prefix \n" +
                       "9. Palindrome Number \n" +
@@ -31,6 +31,7 @@ void DisplayMenu()
                       "88. Merge Sorted Array \r\n" +
                       "94. Binary Tree Inorder Traversal \r\n" +
                       "100. Same Tree\r\n" +
+                      "118. Pascal's Triangle \n" +
                       "_______________________________________________\n" +
                       "0 - Exit");
     Console.WriteLine();
@@ -51,7 +52,7 @@ do
             task = new TwoSumTask();
             break;
         case 2:
-            task = new PascalTriangleTask();
+            task = new AddTwoNumbersTask();
             break;
         case 3:
             task = new LongestSubstringTask();
@@ -109,6 +110,9 @@ do
             break;
         case 100:
             task = new SameTreeTask();
+            break;
+        case 118:
+            task = new PascalTriangleTask();
             break;
         case 0:
             Console.WriteLine("Exiting...");
