@@ -55,6 +55,11 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/des
 
 Given a string s, find the length of the longest substring without duplicate characters.
 
+5. Longest Palindromic Substring (Medium)
+https://leetcode.com/problems/longest-palindromic-substring/
+
+Given a string s, return the longest palindromic substring in s.
+
 9. Palindrome Number (Easy)
 https://leetcode.com/problems/palindrome-number/description/
 

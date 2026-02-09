@@ -13,9 +13,10 @@ void DisplayMenu()
                       "1. Two Sum \n" +
                       "2. Add Two Numbers  \n" +
                       "3. Longest Substring Without Repeating Characters \n" +
-                      "4. Longest Common Prefix \n" +
+                      "5. Longest Palindromic Substring \n" +
                       "9. Palindrome Number \n" +
                       "13. Roman to Integer \n" +
+                      "14. Longest Common Prefix \n" +
                       "20. Valid Parentheses \n" +
                       "21. Merge Two Sorted Lists \n" +
                       "26. Remove Duplicates from Sorted Array \n" +
@@ -57,14 +58,17 @@ do
         case 3:
             task = new LongestSubstringTask();
             break;
-        case 4:
-            task = new LongestCommonPrefixTask();
+        case 5:
+            task = new LongestPalindromeSubstringTask();
             break;
         case 9:
             task = new PalindromeNumberTask();
             break;
         case 13:
             task = new RomanToIntegerTask();
+            break;
+        case 14:
+            task = new LongestCommonPrefixTask();
             break;
         case 20:
             task = new ValidParenthesesTask();
