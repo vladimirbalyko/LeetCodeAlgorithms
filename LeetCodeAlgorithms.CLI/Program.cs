@@ -15,6 +15,7 @@ void DisplayMenu()
                       "3. Longest Substring Without Repeating Characters \n" +
                       "5. Longest Palindromic Substring \n" +
                       "6. ZigZag Conversion \n" +
+                      "7. Reverse Integer \n" +
                       "9. Palindrome Number \n" +
                       "13. Roman to Integer \n" +
                       "14. Longest Common Prefix \n" +
@@ -64,6 +65,9 @@ do
             break;
         case 6:
             task = new ZigZagConversionTask();
+            break;
+        case 7:
+            task = new ReverseIntegerTask();
             break;
         case 9:
             task = new PalindromeNumberTask();
