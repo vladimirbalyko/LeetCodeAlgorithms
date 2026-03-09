@@ -16,6 +16,7 @@ void DisplayMenu()
                       "5. Longest Palindromic Substring \n" +
                       "6. ZigZag Conversion \n" +
                       "7. Reverse Integer \n" +
+                      "8. String to Integer (atoi) \n" +
                       "9. Palindrome Number \n" +
                       "13. Roman to Integer \n" +
                       "14. Longest Common Prefix \n" +
@@ -68,6 +69,9 @@ do
             break;
         case 7:
             task = new ReverseIntegerTask();
+            break;
+        case 8:
+            task = new StringToIntegerTask();
             break;
         case 9:
             task = new PalindromeNumberTask();
