@@ -18,6 +18,7 @@ void DisplayMenu()
                       "7. Reverse Integer \n" +
                       "8. String to Integer (atoi) \n" +
                       "9. Palindrome Number \n" +
+                      "11. Container With Most Water \n" +
                       "13. Roman to Integer \n" +
                       "14. Longest Common Prefix \n" +
                       "20. Valid Parentheses \n" +
@@ -75,6 +76,9 @@ do
             break;
         case 9:
             task = new PalindromeNumberTask();
+            break;
+        case 11:
+            task = new ContainerWithMostWaterTask();
             break;
         case 13:
             task = new RomanToIntegerTask();
