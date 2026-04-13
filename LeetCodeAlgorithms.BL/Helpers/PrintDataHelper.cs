@@ -24,6 +24,23 @@ namespace LeetCodeAlgorithms.BL.Helpers
             return "[" + string.Join(", ", list) + "]";
         }
 
+        public static string PrintNestedList<T>(IList<IList<T>> list)
+        {
+            if (list == null || list.Count == 0)
+            {
+                Console.WriteLine("[]");
+                return "";
+            }
+
+            var result = "[" + string.Join(", ", list.Select(inner =>
+                inner == null || inner.Count == 0
+                    ? "[]"
+                    : "[" + string.Join(", ", inner) + "]"
+            )) + "]";
+
+            return result;
+        }
+
         public static void PrintListNode(ListNode? head)
         {
             var current = head;

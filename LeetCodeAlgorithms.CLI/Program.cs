@@ -22,6 +22,7 @@ void DisplayMenu()
                       "12. Integer to Roman \n" +
                       "13. Roman to Integer \n" +
                       "14. Longest Common Prefix \n" +
+                      "15. 3Sum \n" +
                       "20. Valid Parentheses \n" +
                       "21. Merge Two Sorted Lists \n" +
                       "26. Remove Duplicates from Sorted Array \n" +
@@ -89,6 +90,9 @@ do
             break;
         case 14:
             task = new LongestCommonPrefixTask();
+            break;
+        case 15:
+            task = new ThreeSumTask();
             break;
         case 20:
             task = new ValidParenthesesTask();
