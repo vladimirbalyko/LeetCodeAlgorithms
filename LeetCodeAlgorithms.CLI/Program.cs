@@ -25,6 +25,7 @@ void DisplayMenu()
                       "15. 3Sum \n" +
                       "16. 3Sum Closest \n" +
                       "17. Letter Combinations of a Phone Number \n" +
+                      "18. 4Sum \n" +
                       "20. Valid Parentheses \n" +
                       "21. Merge Two Sorted Lists \n" +
                       "26. Remove Duplicates from Sorted Array \n" +
@@ -101,6 +102,9 @@ do
             break;
         case 17:
             task = new LetterCombinationsOfAPhoneNumberTask();
+            break;
+        case 18:
+            task = new FourSumTask();
             break;
         case 20:
             task = new ValidParenthesesTask();
